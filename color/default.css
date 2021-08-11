@@ -1,0 +1,144 @@
+/* old
+#1 color = #4ACCD1;
+#2 color = #3fbbc0;
+*/
+
+/* new
+#1 color = #61a0fb;
+#2 color = #86a844;
+*/
+
+
+
+:root {
+  --main-color: #025E73; 
+  --second-color: #000; 
+}
+
+.brand-color {
+  color: var(--main-color) !important;
+}
+
+.header-color {
+  color: var(--second-color) !important;
+}
+
+#testimonials a:hover, #testimonials a:focus {
+    color: var(--second-color) !important;
+}
+
+a:hover,
+a:focus {
+    color: var(--main-color);
+}
+
+.circled {
+	background: var(--main-color);
+}
+
+.con1 > div, .con2 > div, .con3 > div { 
+	background-color: var(--main-color);
+}
+
+.scrollup:hover {
+	background: var(--main-color);
+}
+
+
+/* service */
+
+.service-icon span {
+	color: var(--main-color);
+}
+
+
+
+/* button */
+.btn-skin {
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+
+/* top */
+.top-area {
+	background: var(--second-color);
+}
+
+/* menu */
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover {
+	color: var(--second-color);
+}
+.navbar-custom.top-nav-collapse .nav li a:hover,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
+    color: var(--second-color);
+}
+
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: var(--main-color);
+}
+
+
+.bg-skin {
+	background: var(--main-color);
+}
+
+.highlight-color {
+	background-color: var(--main-color);
+}
+.color {
+	color: var(--main-color);
+}
+
+/* pricing box  */
+.pricing-content.featured h2,.pricing-content.featured .price-bottom {
+	background-color:var(--second-color);
+}
+.pricing-content.featured h3 {
+	background:var(--main-color);
+}
+
+
+
+/* team */
+.cbp-l-grid-team-name {
+    color: var(--second-color);
+}
+
+.cbp-l-filters-button .cbp-filter-counter {
+	background-color: var(--main-color);
+}
+
+.cbp-l-filters-alignLeft .cbp-filter-item-active {
+    /* @editable properties */
+    background-color: var(--main-color);
+    border:1px solid var(--main-color);
+}
+
+.cbp-l-filters-dropdownWrap {
+    background: var(--main-color);
+}
+.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+    /* @editable properties */
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+.cbp-l-caption-buttonLeft,
+.cbp-l-caption-buttonRight {
+    /* @editable properties */
+    background-color: var(--main-color);
+}
+
+.cbp-l-caption-buttonLeft:hover,
+.cbp-l-caption-buttonRight:hover {
+    /* @editable properties */
+    background-color: var(--second-color);
+}
+
+.form-control:focus {
+  border-color: var(--second-color);
+}
